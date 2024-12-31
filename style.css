@@ -1,3 +1,4 @@
+/* General reset and base styling */
 *,
 *::before,
 *::after {
@@ -15,9 +16,22 @@ body {
 	font-size: 0.875rem;
 }
 
+/* Utility classes */
 .container {
 	width: 23.4375rem;
 	margin: 0 auto;
+}
+
+.no-margin {
+	margin: 0;
+}
+.ml-0-65 {
+	margin-left: 0.65rem;
+}
+
+.bold {
+	font-weight: 700;
+	font-size: 0.875rem;
 }
 
 .logo {
@@ -29,15 +43,22 @@ body {
 	border-radius: 50%;
 }
 
+.post-details {
+	padding-bottom: 1rem;
+	border-bottom: 25px solid #ededed;
+	padding-left: 0.65rem;
+}
+
 h2 {
 	margin: 0;
 	font-size: 0.875rem;
 }
 
-address {
+address a {
 	font-style: normal;
 	text-decoration: none;
 	font-size: 0.8125rem;
+	color: 0000;
 }
 
 header {
@@ -49,14 +70,27 @@ header {
 }
 
 .user-header {
-	padding: 10px;
+	padding: 0.65rem;
 }
 
 .user-details {
 	display: inline-block;
-	margin-left: 10px;
 }
 
 .img-post {
 	width: 100%;
+	margin-bottom: 1.25rem;
+}
+
+.interactions {
+	display: flex;
+	gap: 1.25rem;
+}
+
+.social-icon {
+	width: 1.5rem;
+}
+
+.post-caption {
+	display: inline;
 }
