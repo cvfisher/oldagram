@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Source Sans 3", serif;
+	font-size: 0.875rem;
+}
+
+.container {
+	width: 23.4375rem;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 7.9375rem;
+}
+
+.avatar {
+	width: 2.15rem;
+	border-radius: 50%;
+}
+
+h2 {
+	margin: 0;
+	font-size: 0.875rem;
+}
+
+address {
+	font-style: normal;
+	text-decoration: none;
+	font-size: 0.8125rem;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid #c6c6c6;
+	padding: 1rem;
+}
+
+.user-header {
+	padding: 10px;
+}
+
+.user-details {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.img-post {
+	width: 100%;
+}
